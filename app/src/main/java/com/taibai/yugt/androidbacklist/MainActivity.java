@@ -15,7 +15,6 @@ import java.util.Date;
 
 public class MainActivity extends AppCompatActivity {
     int REQUEST_PHONE_PERMISSION = 0;
-    int REQUEST_BOOT_COMPLETED_PERMISSION = 1;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
