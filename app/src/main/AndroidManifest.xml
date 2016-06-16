@@ -18,6 +18,12 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
+        <receiver android:name=".reciever.PhoneReciever">
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE"></action>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL"></action>
+            </intent-filter>
+        </receiver>
     </application>
 
 </manifest>
